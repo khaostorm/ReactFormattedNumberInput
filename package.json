@@ -1,0 +1,35 @@
+{
+  "name": "reactformattednumberinput",
+  "version": "1.0.0",
+  "description": "Simple Formatted Number Input built in react",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf node_modules dist tsconfig.tsbuildinfo",
+    "build": "npx tsc",
+    "build:clean": "npm run clean && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaostorm/ReactFormattedNumberInput.git"
+  },
+  "keywords": [
+    "React",
+    "Formatted",
+    "Number",
+    "Input"
+  ],
+  "author": "Caleb McWilliams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khaostorm/ReactFormattedNumberInput/issues"
+  },
+  "homepage": "https://github.com/khaostorm/ReactFormattedNumberInput#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.10"
+  }
+}
